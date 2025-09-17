@@ -1,0 +1,139 @@
+
+/*css style for lab-0
+
+Student Name: Bryan Sevilla
+Assignment Name: lab-0
+Date: 8/28/2025 */
+* {
+    box-sizing:border-box;
+}
+body{ margin:0;
+      background: #fff url(../images/bg.jpg) fixed;
+      background-size:cover;
+      font-family: 'lato', sans-serif;}
+header  {
+    background: grey url(../images/grass.jpg) top fixed;
+    height: 20rem;
+    text-align:center;
+}
+
+h1{ margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #302828;
+    font-size: 2.25rem;
+    font-weight:normal;
+  
+                }
+.amp {
+    font-family: Palatino, serif;
+    font-style:italic;
+    font-weight:bold;
+}                
+header h2{
+    margin:0;
+    font-size:1.25rem;
+    text-transform: uppercase;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: hsl(40, 50%, 60%);
+    padding:15px 0;
+    word-spacing: .1em;
+}
+
+.site-nav {
+    margin:0 0 2rem 0;
+    padding:1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.site-nav ul {
+    margin:0;
+}
+
+.site-nav li {
+    display:inline-block;
+}
+
+.site-nav a {
+    color:white;
+    font-size: 1.25rem;
+    margin-right:1.5rem;
+}
+#homw  .link1-pg {
+    text-decoration: overline;
+    color:darkseagreen;
+}
+.bubba {
+    border-radius: 50%;
+    border:5px solid hsl(40, 50%, 70%);
+    margin:auto;
+    width:250px;
+    display:block;
+    margin-top:-3rem;
+    margin-bottom:3rem;
+}
+p, li {
+    color: rgba(0, 70, 0, 1);
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, .6);
+}
+.intro, .services {
+    max-width:50rem;
+    font-size:1.125rem;
+    width:92%;
+}
+.intro {
+    margin:-1rem auto 3rem auto;
+}
+.services {
+    margin: 3rem auto;
+    background:hsla(180, 15%, 80%, .5);
+    padding:1.5rem;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 3rem;
+}
+
+.services h2 {
+    border-bottom:1px solid hsla(0, 0%, 50%, .5);
+    margin: .5rem auto 0.5rem auto;
+    padding-bottom:0.2em;
+}
+
+.services strong {
+    margin-top:1rem;
+    display:block;
+    color: #000;
+}
+
+h2{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-align: center;}
+
+h3{color:yellow ;}
+p{color: rgb(10, 77, 10);}
+
+footer {
+    color: hsl(40, 50%, 70%);
+    text-align:center;
+    font-size:0.8rem;
+    margin 0;
+    border-top:1px solid black;
+    padding:1.5rem;
+    background-color: rgba(0, 30, 0, 0.9);
+}
+
+
+    
+/************************** style for mobile vieport***************/
+/* Style rule to hide tab-desk class */
+@media only screen and (max-width : 700px) {}
+
+
+
+/******************* Media Query for Desktop Viewport*************************
+
+
+I'm out of time */
+
+
+@media screen and (min-width: 1000px), print

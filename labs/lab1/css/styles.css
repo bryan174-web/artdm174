@@ -1,0 +1,56 @@
+
+/*
+Author: Bryan Sevilla
+Date:9/4/2025
+File Name: styles.css for lab-1
+*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(14, 57, 150);
+    padding: 1rem;
+}
+h1 {color: rgb(68, 201, 56);
+    
+}
+.parent {
+    background-color: rgb(42, 121, 224);
+    display:grid;
+
+   
+
+}
+div, ul{
+    margin: .5rem;
+    padding: .5rem;
+}
+div { background-color: cornflowerblue;}
+ul{
+    background-color: khaki;
+     
+}
+nav li {
+    display: inline;
+}
+body {
+    grid-template-columns: 2rem 400px 3rem;
+    grid-template-rows: 2rem 2rem 500px;
+}
+img {
+    max-width: 100%;
+    display:block;
+}
+.card-listing {
+    display: grid;
+    grid-template-columns: repeat( 4 1fr ) ;
+    
+
+}
+.card {
+    background-color: lightblue;
+    box-shadow: 2px 2px 2px #ccc;
+    padding: 1 rem;
+    text-align: center;
+}
