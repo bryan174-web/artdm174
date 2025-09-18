@@ -7,12 +7,13 @@ Date: 9/15/2025 */
 
 body{
     background-color:#FCEA90 ;
+    /*If I have time I will change all the colors into a fall style colors*/
 }
 header{background-color:#56A7A7 ;
     color:#F9FBFC;   /*text for the header*/
     text-align: center;
     padding:.5rem;
-    font size:1.5em;
+    
 }
 main{
     font-family: 'Times New Roman', Times, serif; /*nothing fancy*/
@@ -27,18 +28,20 @@ article{
     overflow: auto; 
 }
 footer{
+   
     background-color:#56A7A7 ;  
     color:#F9FBFC;
     padding:1em;
 }   /*I like the almost white text*/
+
+
 h2{
    
     font-weight: bold;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: xxxlarge;
+   
 
-} /*I changed the text because the e-mail is easier to read*/
- /* font- size:xx-large fits the best*/
+} 
 h3{
     font-size:1.5em;
     font-weight: bold;
@@ -65,4 +68,14 @@ a:hover {
 }  /* I wanted to do something whith the links, nice color on hover*/
 img{
     border:5px solid #F9FBFC;
-}  /* image border.  I can't make it thicker because of the text*/
+} 
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
